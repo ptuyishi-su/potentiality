@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import React from 'react'
+import React, { Suspense } from 'react'
 import './App.css'
 import Home from "./components/pages/home";
 import About from './components/pages/about'
@@ -12,13 +12,15 @@ function App() {
   return (
     <>
       <Navbar/>
+      <Suspense fallback={<div className="container">Loading...</div>}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Members" element={<Members />} />
           <Route path="/About" element={<About />} />
           <Route path="/Resources" element={<Resources />} />
           <Route path="/Contact" element= {<Contact/>}/>
-       </Routes>
+        </Routes>
+      </Suspense>
 
     </>
   )
