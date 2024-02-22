@@ -1,0 +1,9 @@
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ul li a.active {
+  color: #00a8ff;
+  text-decoration: none;
+ }
