@@ -1,23 +1,29 @@
 import React from 'react'
+import styled from 'styled-components'
+import {Nav} from '../styles/Nav.styled'
+import { Button } from '../styles/Button.styled'
 import { Link } from 'react-router-dom'
 const NavBar = () => {
   return (
-    <div>
-      <nav >
-        <ul className='navbar'>
-          <li><Link to="/">Logo</Link></li>
+    <>
+      <Nav >
+      <div>
+        <li><Link to="/">Logo</Link></li>
+      </div>
+      <div>
+        <ul>
           <li><Link to="/about">Why Potentiality</Link></li>
-          <li><Link to="/resources">Resources</Link></li>
-          <li><Link to="/contact">Solutions</Link></li>
+            <li><Link to="/resources">Resources</Link></li>
+            <li><Link to="/contact">Solutions</Link></li>
           <li><Link to="/">Events</Link></li>
-          <li><Link to="/resources">Courses</Link></li>
-          <li><Link to="/about">Contact</Link></li>
-
-
-
         </ul>
-      </nav>
-    </div>
+      </div>
+      <div>
+        <Button>Sign in</Button>
+        {/* <Button>Become a partner</Button> */}
+      </div>
+      </Nav>
+    </>
   )
 }
 
