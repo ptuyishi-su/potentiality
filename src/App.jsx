@@ -3,11 +3,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React, { Suspense } from 'react'
 import './App.css'
 import Home from "./components/pages/home";
-import About from './components/pages/about'
 import Resources from "./components/pages/resources"
 import Members from "./components/ui/Members"
 import Navbar from "./components/ui/NavBar"
 import Contact from "./components/pages/Contact"
+import Footer from "./components/ui/Footer";
 function App() {
   return (
     <>
@@ -16,12 +16,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Members" element={<Members />} />
-          <Route path="/About" element={<About />} />
           <Route path="/Resources" element={<Resources />} />
           <Route path="/Contact" element= {<Contact/>}/>
         </Routes>
       </Suspense>
-
+      <Footer/>
     </>
   )
 }

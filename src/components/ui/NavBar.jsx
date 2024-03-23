@@ -1,27 +1,31 @@
 import React from 'react'
 import styled from 'styled-components'
-import {Nav} from '../styles/Nav.styled'
+import {Nav, Logo} from '../styles/Nav.styled'
 import { Button } from '../styles/Button.styled'
 import { Link } from 'react-router-dom'
+import logo from '../../assets/images/logo.svg'
+import { NavButtons } from '../styles/Nav.styled'
 const NavBar = () => {
   return (
     <>
       <Nav >
+        <Logo>
+          <Link to="/">
+            <img src={logo}/>
+          </Link>
+        </Logo>
       <div>
-        <li><Link to="/">Logo</Link></li>
+        <NavButtons>
+          <li><Link to="/about">Solutions</Link></li>
+            <li><Link to="/resources">Athlete</Link></li>
+            <li><Link to="/contact">Coach</Link></li>
+          <li><Link to="/">Organization</Link></li>
+        </NavButtons>
       </div>
-      <div>
-        <ul>
-          <li><Link to="/about">Why Potentiality</Link></li>
-            <li><Link to="/resources">Resources</Link></li>
-            <li><Link to="/contact">Solutions</Link></li>
-          <li><Link to="/">Events</Link></li>
-        </ul>
-      </div>
-      <div>
+      <NavButtons>
         <Button>Sign in</Button>
-        {/* <Button>Become a partner</Button> */}
-      </div>
+        <Button>Become a partner</Button>
+      </NavButtons>
       </Nav>
     </>
   )

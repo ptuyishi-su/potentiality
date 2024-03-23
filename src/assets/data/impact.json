@@ -1,0 +1,134 @@
+{
+    "impact": [
+      {
+        "id": 1,
+        "name": "Transparent Recruitment",
+        "content": "Current disparities in resources and opportunities hinder the progress of players. This causes issues for youth players all over the world—particularly economically-disadvantaged individuals"
+      },
+      {
+        "id": 2,
+        "name": "More access",
+        "content": "Current disparities in resources and opportunities hinder the progress of players. This causes issues for youth players all over the world—particularly economically-disadvantaged individuals"
+      },
+      {
+        "id": 3,
+        "name": "Talent Recognition in Youth Soccer",
+        "content": "Current disparities in resources and opportunities hinder the progress of players. This causes issues for youth players all over the world—particularly economically-disadvantaged individuals"
+      },
+      {
+        "id": 4,
+        "name": "Player's well-being",
+        "content": "Our goal is to create an inclusive ecosystem that unlocks the potential of aspiring players worldwide, ensuring that barriers mitigated."
+      }
+    ],
+    "aproach" : [
+        {
+            "id":1,
+            "price": "Free tool",
+            "title": "Players Conversations Assessment",
+            "link": "/"
+        },
+        {
+            "id":2,
+            "price": "Free tool",
+            "title": "Players Conversations Assessment",
+            "link": "/"
+        },
+        {
+            "id":3,
+            "price": "Free tool",
+            "title": "Players Conversations Assessment",
+            "link": "/"
+        },
+        {
+            "id":4,
+            "price": "Free tool",
+            "title": "Players Conversations Assessment",
+            "link": "/"
+        }
+    ],
+    "news" : [
+        {
+            "id":1,
+            "title": "National leagues experience in college sports",
+            "Content": "Potentiality holds the most up to date highlights footage, game footage, and academic performance empowering coaches to make confident decisions and empowering athletes to take control of their journey.",
+            "link": "/"
+        },
+        {
+            "id":2,
+            "title": "National leagues experience in college sports",
+            "Content": "Potentiality holds the most up to date highlights footage, game footage, and academic performance empowering coaches to make confident decisions and empowering athletes to take control of their journey.",
+            "link": "/"
+        },
+        {
+            "id":3,
+            "title": "National leagues experience in college sports",
+            "Content": "Potentiality holds the most up to date highlights footage, game footage, and academic performance empowering coaches to make confident decisions and empowering athletes to take control of their journey.",
+            "link": "/"
+        },
+        {
+            "id":4,
+            "title": "National leagues experience in college sports",
+            "Content": "Potentiality holds the most up to date highlights footage, game footage, and academic performance empowering coaches to make confident decisions and empowering athletes to take control of their journey.",
+            "link": "/"
+        }
+    ],
+    "stories" : [
+        {
+            "id":1,
+            "title": "LeMoyne College",
+            "src": "../../assets/images/coachImage.png",
+            "alt": "image description",
+            "Content": "Potentiality holds the most up to date highlights footage, game footage, and academic performance empowering coaches to make confident decisions and empowering athletes to take control of their journey.",
+            "link": "/"
+        },
+        {
+            "id":2,
+            "title": "LeMoyne College",
+            "src": "../../assets/images/coachImage.png",
+            "alt": "image description",
+            "Content": "Potentiality holds the most up to date highlights footage, game footage, and academic performance empowering coaches to make confident decisions and empowering athletes to take control of their journey.",
+            "link": "/"
+        },
+        {
+            "id":3,
+            "title": "LeMoyne College",
+            "src": "../../assets/images/coachImage.png",
+            "alt": "image description",
+            "Content": "Potentiality holds the most up to date highlights footage, game footage, and academic performance empowering coaches to make confident decisions and empowering athletes to take control of their journey.",
+            "link": "/"
+        },
+        {
+            "id":4,
+            "title": "LeMoyne College",
+            "src": "../../assets/images/coachImage.png",
+            "alt": "image description",
+            "Content": "Potentiality holds the most up to date highlights footage, game footage, and academic performance empowering coaches to make confident decisions and empowering athletes to take control of their journey.",
+            "link": "/"
+        }
+    ],
+    "FooterNav": [
+        {
+            "id":1,
+            "title": "Solutions",
+            "link": ["Athletes", "Coaches", "Organization"]
+        }, {
+            "id":2,
+            "title": "Products",
+            "link": ["Platform", "Chat", "Discover","Events","Community"]
+        }, {
+            "id":3,
+            "title": "Company",
+            "link": ["About Us", "Customer Stories", "Partners","Careers","Press"]
+        }, {
+            "id":4,
+            "title": "Resources",
+            "link": ["FAQ", "Blogs", "Customer Support"]
+        }, {
+            "id":5,
+            "title": "Legal",
+            "link": ["Privacy Policy", "Imprint"]
+        }
+    ]
+  }
+  

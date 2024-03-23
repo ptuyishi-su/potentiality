@@ -1,16 +1,26 @@
 import React from 'react'
-import About from './about'
 import Hero from '../ui/Hero'
-import Projects from '../ui/Projects'
+import AthleteSection from '../ui/AthleteSection'
+import CoachSection from '../ui/CoachSection'
+import OrganizationSection from '../ui/OrganizationSection'
+import Impact from '../ui/Impact'
+import Aproach from '../ui/Aproach'
+import Insight from '../styles/Insight'
+import ClientStory from '../ui/ClientStory'
+import Map from '../ui/Map'
 
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
       <Hero/>
-      <About/>
-      <Projects/>
-
+      <AthleteSection/>
+      <CoachSection/>
+      <OrganizationSection/>
+      <Impact/>
+      <Aproach/>
+      <Insight/>
+      <ClientStory/>
+      <Map/>
     </div>
   )
 }
