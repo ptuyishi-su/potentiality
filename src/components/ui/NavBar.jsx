@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import {Nav, Logo} from '../styles/Nav.styled'
-import { Button } from '../styles/Button.styled'
+import { Button, ButtonClear } from '../styles/Button.styled'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/images/logo.svg'
 import { NavButtons } from '../styles/Nav.styled'
@@ -23,8 +23,8 @@ const NavBar = () => {
         </NavButtons>
       </div>
       <NavButtons>
-        <Button>Sign in</Button>
-        <Button>Become a partner</Button>
+        <Button bg="primary">Log in</Button>
+        <Button bg="secondary">Become a partner</Button>
       </NavButtons>
       </Nav>
     </>

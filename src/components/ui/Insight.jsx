@@ -1,16 +1,16 @@
 import React from 'react'
-import { Container } from './Container.styled'
-import { Flex, FlexEven } from './Flex.styled'
-import { HeroContent, HeroHeading, HeroImage } from './Hero.styled'
+import { Container } from '../styles/Container.styled'
+import { Flex, FlexEven } from '../styles/Flex.styled'
+import { HeroContent, HeroHeading, HeroImage } from '../styles/Hero.styled'
 import coachImage from '../../assets/images/coachImage.png'
 import insightData from '../../assets/data/impact.json'
-import { StyledList } from './List.styled'
+import { StyledList } from '../styles/List.styled'
 
 const Insight = () => {
   return (
    
     <Container>
-        <Flex>
+        <FlexEven>
             <HeroHeading>
                 <h3>Insight</h3>
                 <HeroImage src={coachImage}/>
@@ -25,14 +25,8 @@ const Insight = () => {
                         </li>
                     </StyledList>
                 ))}
-               
-                
-                
-
             </HeroContent>
-
-        </Flex>
-
+        </FlexEven>
     </Container>
   )
 }

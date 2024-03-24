@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from '../styles/Container.styled'
 import { Flex } from '../styles/Flex.styled'
-import { Button } from '../styles/Button.styled'
+import { Button, ButtonClear } from '../styles/Button.styled'
 import { NavButtons } from '../styles/Nav.styled'
 import { HeroHeading, HeroContent } from '../styles/Hero.styled'
 import { Banner } from '../styles/Banner.styled'
@@ -18,10 +18,10 @@ const AthleteSection = () => {
         <h3>Transparent Recruitment</h3>
         <p>Our platform provides young talents with the opportunity to showcase their skills, be recognized for their talent, and receive support for their overall well-being. We believe in creating a fair and inclusive soccer ecosystem that values equal opportunities and prioritizes the welfare of players.</p>
         <NavButtons>
-            <Button $primary>
+            <Button bg="primary">
                 Sign Up
             </Button>
-            <Button>
+            <Button bg="secondary">
                 Become a partner
             </Button>
         </NavButtons>

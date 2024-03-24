@@ -15,24 +15,9 @@ export const LandingPageHero =styled.div `
         object-fit: cover;
         height: 100%;
         width: 100%;
-        border-radius: 5px;
+        border-radius: 60px;
     }
-    ul {
-        padding: 0px;
-        display: flex;
-        width: 363px;
-        align-items: center;
-        justify-content: space-between;
-        align-content: center;
-        gap: 33px;
-        align-self: stretch;
-        flex-wrap: wrap;
-        list-style: none;
-    }
-    li {
-        padding-bottom: 5px;
-        border-bottom: 1px solid purple;
-    }
+    
 `
 export const HeroHeading = styled.div `
 display: flex;
@@ -49,13 +34,15 @@ export const HeroContent = styled.div `
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-width: 1026px;
+width: ${props => props.small ? "500px" : "1026px"};
 gap: 30px;
-padding-left: 100px;
+
+/* @media (max-width: 1100px) {
+    padding-left: 0;
+    } */
 `
 export const HeroImage = styled.img `
     object-fit: cover;
-    height: 100%;
     width: 100%;
     border-radius: 5px;
 `

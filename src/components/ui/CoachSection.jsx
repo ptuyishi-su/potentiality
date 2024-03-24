@@ -19,8 +19,8 @@ const CoachSection = () => {
                 <h2>Connecting athletes and coaches for success</h2>
                 <p>Explore our top athlete profiles featuring quick statistics and captivating highlight videos. Find athletes you know and discover the recruits you need to build your best team.</p>
                 <NavButtons>
-                    <Button>Sign Up</Button>
-                    <Button>Learn More</Button>
+                    <Button bg="primary">Sign Up</Button>
+                    <Button bg="secondary">Learn More</Button>
                  </NavButtons>
             </HeroHeading>
             <HeroImage src={coachImage} alt="Coach and Athlete" />
@@ -28,7 +28,7 @@ const CoachSection = () => {
         <Banner>
             <h2>All Prospect Videos in One Place</h2>
             <p> Potentiality holds the most up to date highlights , game footage, and academic performance empowering coaches to make confident decisions and empowering athletes to take control of their journey with our personalized Profiles</p>
-            <Button>Explore Athletes</Button>
+            <Button bg="secondary">Explore Athletes</Button>
         </Banner>
       </Container>
     </>

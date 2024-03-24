@@ -8,7 +8,7 @@ export const Banner = styled.div`
     align-items: center; /* Center items horizontally */
     justify-content: center; /* Center items vertically */
     gap: 30px;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-top: 80px;
 
     h2,p {
