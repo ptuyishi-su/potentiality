@@ -4,7 +4,7 @@ export const LandingPageHero =styled.div `
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 6ç0px;
+    padding-top: 60px;
     h1 {
         font-size: 60px;
         font-style: normal;
