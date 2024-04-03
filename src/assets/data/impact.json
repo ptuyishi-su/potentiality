@@ -77,7 +77,7 @@
         {
             "id":1,
             "title": "LeMoyne College",
-            "src": "../../assets/images/coachImage.png",
+            "src": "src/assets/images/coachImage.png",
             "alt": "image description",
             "Content": "Potentiality holds the most up to date highlights footage, game footage, and academic performance empowering coaches to make confident decisions and empowering athletes to take control of their journey.",
             "link": "/"
@@ -85,7 +85,7 @@
         {
             "id":2,
             "title": "LeMoyne College",
-            "src": "../../assets/images/coachImage.png",
+            "src": "src/assets/images/coachImage.png",
             "alt": "image description",
             "Content": "Potentiality holds the most up to date highlights footage, game footage, and academic performance empowering coaches to make confident decisions and empowering athletes to take control of their journey.",
             "link": "/"
@@ -93,7 +93,7 @@
         {
             "id":3,
             "title": "LeMoyne College",
-            "src": "../../assets/images/coachImage.png",
+            "src": "src/assets/images/coachImage.png",
             "alt": "image description",
             "Content": "Potentiality holds the most up to date highlights footage, game footage, and academic performance empowering coaches to make confident decisions and empowering athletes to take control of their journey.",
             "link": "/"
@@ -101,7 +101,7 @@
         {
             "id":4,
             "title": "LeMoyne College",
-            "src": "../../assets/images/coachImage.png",
+            "src": "src/assets/images/coachImage.png",
             "alt": "image description",
             "Content": "Potentiality holds the most up to date highlights footage, game footage, and academic performance empowering coaches to make confident decisions and empowering athletes to take control of their journey.",
             "link": "/"

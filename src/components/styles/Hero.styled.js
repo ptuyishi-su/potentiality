@@ -4,7 +4,7 @@ export const LandingPageHero =styled.div `
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 6ç0px;
     h1 {
         font-size: 60px;
         font-style: normal;
@@ -27,13 +27,15 @@ align-items: flex-start;
 gap: 24px;
 align-self: stretch;
 max-width: 490px;
-min-width: 575px;
+min-width: 375px;
 `
 
 export const HeroContent = styled.div `
 display: flex;
 flex-direction: column;
 align-items: flex-start;
+max-width: 490px;
+min-width: 375px;
 width: ${props => props.small ? "500px" : "1026px"};
 gap: 30px;
 

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Container } from '../styles/Container.styled'
 import { Flex } from '../styles/Flex.styled'
-import { HeroHeading, HeroImage } from '../styles/Hero.styled'
+import { HeroContent, HeroHeading, HeroImage } from '../styles/Hero.styled'
 import coachImage from '../../assets/images/coachImage.png'
 import { NavButtons } from '../styles/Nav.styled'
 import { Button } from '../styles/Button.styled'
@@ -15,15 +15,17 @@ const CoachSection = () => {
       <Container>
         <Flex>
             <HeroHeading>
-                <h3> Revolutionize</h3>
-                <h2>Connecting athletes and coaches for success</h2>
-                <p>Explore our top athlete profiles featuring quick statistics and captivating highlight videos. Find athletes you know and discover the recruits you need to build your best team.</p>
-                <NavButtons>
-                    <Button bg="primary">Sign Up</Button>
-                    <Button bg="secondary">Learn More</Button>
-                 </NavButtons>
+              <h3> Revolutionize</h3>
+              <h2>Connecting athletes and coaches for success</h2>
+              <p>Explore our top athlete profiles featuring quick statistics and captivating highlight videos. Find athletes you know and discover the recruits you need to build your best team.</p>
+              <NavButtons>
+                  <Button bg="primary">Sign Up</Button>
+                  <Button bg="secondary">Learn More</Button>
+               </NavButtons>
             </HeroHeading>
-            <HeroImage src={coachImage} alt="Coach and Athlete" />
+            <HeroContent>
+              <HeroImage src={coachImage} alt="Coach and Athlete" />
+            </HeroContent>
         </Flex>
         <Banner>
             <h2>All Prospect Videos in One Place</h2>

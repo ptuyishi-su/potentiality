@@ -3,7 +3,6 @@ import { Container } from '../styles/Container.styled'
 import { Flex } from '../styles/Flex.styled'
 import { HeroHeading, HeroImage } from '../styles/Hero.styled'
 import { Card } from '../styles/Card.styled'
-import coachImage from '../../assets/images/coachImage.png'
 import StoryData from '../../assets/data/impact.json'
 
 const ClientStory = () => {
@@ -13,10 +12,10 @@ const ClientStory = () => {
             <h2>Client Stories</h2>
         </HeroHeading>
         <Flex>
-            {StoryData.stories.map(item =>(
+            {StoryData?.stories?.map(item =>(
                 <Card key={item.id}>
                     <h3>{item.title}</h3>
-                    <img src={item.src} alt={item.alt} />
+                    <img src={item.src}  alt={item.alt}  height={100}/>
                     <p>{item.Content}</p>
                 </Card>
             ))}

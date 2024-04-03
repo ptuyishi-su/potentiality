@@ -20,7 +20,7 @@ const OrganizationSection = () => {
                 <p>
                 Our network provides colleges with powerful tools to efficiently identify and connect with talented athletes, making the recruitment process more efficient and effective. With our streamlined platform, colleges can easily search for athletes based on specific criteria, view their profiles, and communicate directly with them. This saves time and resources, allowing colleges to focus on finding the best fit for their programs.
                 </p>
-                <Button>Explore all Integrattion</Button>
+                <Button bg="secondary">Explore all Integrattion</Button>
             </HeroContent>
         </Flex>
         <Banner>

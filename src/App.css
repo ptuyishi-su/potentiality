@@ -349,11 +349,13 @@
   }
 
 body {
-  
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 h1,h2,h3,p,h4{
   margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 h2 {
   font-size: 52px;
@@ -366,4 +368,13 @@ a,h1,h2,h3,p,h4 {
 ul {
   padding: 0;
   margin: 0;
+}
+@media screen {
+  
+}
+
+@media (max-width: 1100px) {
+  h2 {
+    font-size: 40px;
+  }
 }

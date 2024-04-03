@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from '../styles/Container.styled'
 import { Flex } from '../styles/Flex.styled'
-import { Button, ButtonClear } from '../styles/Button.styled'
+import { Button } from '../styles/Button.styled'
 import { NavButtons } from '../styles/Nav.styled'
 import { HeroHeading, HeroContent } from '../styles/Hero.styled'
 import { Banner } from '../styles/Banner.styled'
@@ -29,7 +29,7 @@ const AthleteSection = () => {
       </Flex>
       <Banner>
         <h2>Change how You are Seen in the  Game</h2>
-        <Button>Create Profile</Button>
+        <Button bg="secondary">Create Profile</Button>
        </Banner>
     </Container>
   )

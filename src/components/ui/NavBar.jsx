@@ -5,10 +5,11 @@ import { Button, ButtonClear } from '../styles/Button.styled'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/images/logo.svg'
 import { NavButtons } from '../styles/Nav.styled'
+import { Container } from '../styles/Container.styled'
 const NavBar = () => {
   return (
     <>
-      <Nav >
+      <Nav>
         <Logo>
           <Link to="/">
             <img src={logo}/>

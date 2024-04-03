@@ -34,6 +34,9 @@ export const Nav = styled.nav`
             display: none;
         }
     }
+    .div {
+        border: none;
+    }
     
        
 `

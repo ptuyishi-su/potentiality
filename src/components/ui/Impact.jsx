@@ -5,7 +5,6 @@ import { HeroContent, HeroHeading } from '../styles/Hero.styled'
 import impactData from '../../assets/data/impact.json'
 import { StyledList } from '../styles/List.styled'
 
-const employees = ["John", "mark" , "Steve"]
 const Impact = () => {
   return (
     <Container>

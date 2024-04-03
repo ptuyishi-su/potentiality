@@ -23,7 +23,8 @@ const Aproach = () => {
             <Card>
                 <p>{aproach.price}</p>
                 <h3>{aproach.title}</h3>
-                <Button><a href={aproach.link}>Learn more</a></Button>
+                <Button bg="secondary">Create Profile</Button>
+
             </Card>
             )
         })}
