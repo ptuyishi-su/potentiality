@@ -16,11 +16,12 @@ const Hero = () => {
             <h1>
               Promoting Equal Opportunities and Scouting in Soccer
             </h1>
-            <HeroContent $width small >
-              <p>
-                Join our community of players and teams, where you can showcase your skills, engage with the community, connect with coaches and recruiters, and take control of your athletic journey.
+            <HeroContent>
+            <p>
+                Showcase your skills, connect with coaches and recruiters,<br/>and take control of your athletic journey.
               </p>
             </HeroContent>
+          
           </div>
         </div>
         <div>
@@ -29,19 +30,19 @@ const Hero = () => {
         </LandingPageHero>
         <Stats>
           <div>
-            <h4>897K+</h4>
+            <h4>897K<sup>+</sup></h4>
             <p>National Teams</p>
           </div>
           <div>
-            <h4>529+</h4>
+            <h4>529<sup>+</sup></h4>
             <p>National Teams</p>
           </div>
           <div>
-            <h4>52M+</h4>
+            <h4>52M<sup>+</sup></h4>
             <p>National Teams</p>
           </div>
           <div>
-            <h4>529+</h4>
+            <h4>529<sup>+</sup></h4>
             <p>National Teams</p>
           </div>
         </Stats>

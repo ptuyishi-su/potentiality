@@ -1,6 +1,6 @@
 import styled from'styled-components'
 export const Banner = styled.div`
-    background-color: #1870D4;
+    background-color: rgb(24, 112, 212);
     padding: 50px 0px;
     text-align: center;
     display: flex;
@@ -16,3 +16,9 @@ export const Banner = styled.div`
     }
     
 `;
+export const BannerOrange = styled(Banner) `
+background-color: orange;
+p, h2 {
+    color: black;
+}
+`

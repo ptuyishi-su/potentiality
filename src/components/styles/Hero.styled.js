@@ -6,7 +6,6 @@ export const LandingPageHero =styled.div `
     align-items: center;
     padding-top: 60px;
     h1 {
-        font-size: 60px;
         font-style: normal;
         font-weight: 700;
         line-height: 79px;
@@ -17,6 +16,7 @@ export const LandingPageHero =styled.div `
         width: 100%;
         border-radius: 60px;
     }
+    
     
 `
 export const HeroHeading = styled.div `

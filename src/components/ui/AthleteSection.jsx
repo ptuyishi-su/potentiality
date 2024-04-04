@@ -4,7 +4,7 @@ import { Flex } from '../styles/Flex.styled'
 import { Button } from '../styles/Button.styled'
 import { NavButtons } from '../styles/Nav.styled'
 import { HeroHeading, HeroContent } from '../styles/Hero.styled'
-import { Banner } from '../styles/Banner.styled'
+import { Banner, BannerOrange } from '../styles/Banner.styled'
 
 const AthleteSection = () => {
   return (
