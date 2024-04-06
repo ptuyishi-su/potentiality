@@ -11,7 +11,7 @@ const AthleteSection = () => {
     <Container>
       <Flex>
        <HeroHeading>
-        <h3>Empower</h3>
+        <span>Empower</span>
         <h2>Connecting athletes and coaches for success</h2>
        </HeroHeading>
        <HeroContent>

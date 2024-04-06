@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div `
     
-    margin: 15px 143px;
+    margin: 0px 143px;
     align-items: flex-start;
     gap: 240px;
     align-self: stretch;

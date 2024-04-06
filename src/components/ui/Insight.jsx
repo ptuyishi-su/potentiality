@@ -12,7 +12,7 @@ const Insight = () => {
     <Container>
         <FlexEven>
             <HeroHeading>
-                <h3>Insight</h3>
+                <span>Insight</span>
                 <HeroImage src={coachImage}/>
             </HeroHeading>
             <HeroContent>

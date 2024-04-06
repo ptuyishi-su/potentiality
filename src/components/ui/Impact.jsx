@@ -10,7 +10,7 @@ const Impact = () => {
     <Container>
         <Flex>
             <HeroHeading>
-                <h3>Impact</h3>
+                <span>Impact</span>
                 <h2>Building a happier, healthier, and more equitable Scouting Process.</h2>
             </HeroHeading>
             <HeroContent>

@@ -1,9 +1,12 @@
 import React from 'react'
 import { Container } from '../styles/Container.styled'
-import { Flex } from '../styles/Flex.styled'
+import { Flex, FlexClient } from '../styles/Flex.styled'
 import { HeroHeading, HeroImage } from '../styles/Hero.styled'
-import { Card } from '../styles/Card.styled'
+import { Card, LongCard, ClientDiv } from '../styles/Card.styled'
 import StoryData from '../../assets/data/impact.json'
+import { Link } from 'react-router-dom'
+import heroImage from '../../assets/images/heroimg.png'
+
 
 const ClientStory = () => {
   return (
@@ -13,11 +16,12 @@ const ClientStory = () => {
         </HeroHeading>
         <Flex>
             {StoryData?.stories?.map(item =>(
-                <Card key={item.id}>
+                <FlexClient>
                     <h3>{item.title}</h3>
-                    <img src={item.src}  alt={item.alt}  height={100}/>
-                    <p>{item.Content}</p>
-                </Card>
+                    <LongCard key={item.id}>
+                        <Link>+</Link>
+                    </LongCard>
+                </FlexClient>
             ))}
             
         </Flex>

@@ -7,7 +7,7 @@ export const Button = styled.button`
     justify-content: center;
     align-items: center;
     border-radius: 100px;
-    transition: ease-out .3s;
+    transition: linear .3s;
     background-color: ${props => props.bg === "primary" ? "black" : "white"};
     color: ${props => props.bg === "primary"? "white" : "black" };
 
@@ -15,20 +15,23 @@ export const Button = styled.button`
         background-color: ${props => props.bg === "secondary" ? "black" : "white"};
         color: ${props => props.bg === "secondary" ? "white" : "black"};
         border: 1.5px solid black;
-     
-
 
     }
     `
 
     export const ButtonClear = styled(Button)`
-        color: black;
+        border-radius: 120px;
         border: none;
-        transition: ease-out;
-    transition-duration: .4s;
+        font-size: 16px;
+        padding: 12px 20px;
+        transition: all .5s ease-out;
+        text-decoration: none;
+        color: #3253FF;
         &:hover {
-            color: black;
-            border: .5px solid black;
-            background-color: white;
-        }
+        background-color: ${props => props.bg === "secondary" ? "#3253FF" : "white"};
+        text-decoration: ${props => props.bg === "secondary" ? "white" : "#white"};
+        p {color: white}
+        border: none
+
+    }
     `

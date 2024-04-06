@@ -5,6 +5,8 @@ import heroImage from '../../assets/images/heroimg.png'
 import { HeroContent, LandingPageHero } from '../styles/Hero.styled';
 import { Stats } from '../styles/Stats.styled';
 import { Flex } from '../styles/Flex.styled';
+import data from '../../assets/data/impact.json'
+import { Button } from '../styles/Button.styled';
 
 const Hero = () => {
   return (
@@ -17,9 +19,10 @@ const Hero = () => {
               Promoting Equal Opportunities and Scouting in Soccer
             </h1>
             <HeroContent>
-            <p>
-                Showcase your skills, connect with coaches and recruiters,<br/>and take control of your athletic journey.
+              <p>
+                  Showcase your skills, connect with coaches and recruiters,and take control of your athletic journey.
               </p>
+              <Button bg="primary">Get Started</Button>
             </HeroContent>
           
           </div>
@@ -29,23 +32,16 @@ const Hero = () => {
         </div>
         </LandingPageHero>
         <Stats>
-          <div>
-            <h4>897K<sup>+</sup></h4>
-            <p>National Teams</p>
-          </div>
-          <div>
-            <h4>529<sup>+</sup></h4>
-            <p>National Teams</p>
-          </div>
-          <div>
-            <h4>52M<sup>+</sup></h4>
-            <p>National Teams</p>
-          </div>
-          <div>
-            <h4>529<sup>+</sup></h4>
-            <p>National Teams</p>
-          </div>
+          <Stats>
+            <p>Trusted by exceptional <span>Brands</span></p>
+          </Stats>
+          <Stats>
+            {data?.sponsor?.map((item)=> (
+              <img src={item.src} alt="sponsors" width={80} />
+            ))}
+          </Stats>
         </Stats>
+        
       </Container>
       
     </>

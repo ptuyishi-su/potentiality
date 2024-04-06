@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import {Nav, Logo, SolutionNav} from '../styles/Nav.styled'
+import {Nav, Logo, SolutionNav, MobileLogo} from '../styles/Nav.styled'
 import { Button, ButtonClear } from '../styles/Button.styled'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/images/logo.svg'
+import smalls from '../../assets/images/logoIcon.svg'
 import { NavButtons } from '../styles/Nav.styled'
 
 const NavBar = () => {
@@ -14,9 +15,10 @@ const toggleSolutionNav = () => {
   return (
     <>
       <Nav>
+        
         <Logo>
           <Link to="/">
-            <img src={logo}/>
+            <img src={smalls} />
           </Link>
         </Logo>
       <div>

@@ -4,17 +4,41 @@ export const LandingPageHero =styled.div `
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 60px;
+    gap: 30px;
     h1 {
         font-style: normal;
         font-weight: 700;
         line-height: 79px;
     }
+    
     img {
         object-fit: cover;
         height: 100%;
         width: 100%;
         border-radius: 60px;
+        transition: linear;
+    }
+    button {
+        display: none;
+    }
+    @media (max-width: 1000px) {
+        img {
+        }
+    }
+    @media (max-width:767px) {
+        img {
+            display: none;
+        }
+        h1{
+            font-weight: 500;
+            font-size: 44px;
+            line-height: 1.2;
+            letter-spacing: -.025em;
+        }
+        button {
+            display: block;
+        }
+
     }
     
     
@@ -28,6 +52,14 @@ gap: 24px;
 align-self: stretch;
 max-width: 490px;
 min-width: 375px;
+span {
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px; /* 143.75% */
+    letter-spacing: -0.64px;
+}
 `
 
 export const HeroContent = styled.div `

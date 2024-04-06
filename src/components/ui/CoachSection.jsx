@@ -15,7 +15,7 @@ const CoachSection = () => {
       <Container>
         <Flex>
             <HeroHeading>
-              <h3> Revolutionize</h3>
+              <span> Revolutionize</span>
               <h2>Connecting athletes and coaches for success</h2>
               <p>Explore our top athlete profiles featuring quick statistics and captivating highlight videos. Find athletes you know and discover the recruits you need to build your best team.</p>
               <NavButtons>

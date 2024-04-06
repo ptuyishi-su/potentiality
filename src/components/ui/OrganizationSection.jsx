@@ -10,7 +10,7 @@ const OrganizationSection = () => {
       <Container>
         <Flex>
             <HeroHeading>
-                <h3>Streamline</h3>
+                <span>Streamline</span>
                 <h2>
                     Streamline the recruitment process and find the right athletes with ease.
                 </h2>
@@ -23,12 +23,6 @@ const OrganizationSection = () => {
                 <Button bg="secondary">Explore all Integrattion</Button>
             </HeroContent>
         </Flex>
-        <Banner>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </Banner>
       </Container>
     </>
   )

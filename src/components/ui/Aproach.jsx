@@ -3,7 +3,7 @@ import { Container } from '../styles/Container.styled'
 import { Flex, FlexEven } from '../styles/Flex.styled'
 import { HeroContent, HeroHeading } from '../styles/Hero.styled'
 import tools from '../../assets/data/impact.json'
-import { Button } from '../styles/Button.styled'
+import { Button, ButtonClear } from '../styles/Button.styled'
 import { Card } from '../styles/Card.styled'
 
 const Aproach = () => {
@@ -20,11 +20,10 @@ const Aproach = () => {
       <FlexEven >
         {tools.aproach.map((aproach)=>{
             return (
-            <Card>
+            <Card color={aproach.color}>
                 <p>{aproach.price}</p>
                 <h3>{aproach.title}</h3>
-                <Button bg="secondary">Create Profile</Button>
-
+                <ButtonClear bg="secondary"><span>Learn more</span></ButtonClear>
             </Card>
             )
         })}

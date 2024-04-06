@@ -25,26 +25,32 @@
         {
             "id":1,
             "price": "Free tool",
-            "title": "Players Conversations Assessment",
-            "link": "/"
+            "title": "Leveraging social media for fair soccer scouting",
+            "link": "/",
+            "color": "#62D99B"
         },
         {
             "id":2,
             "price": "Free tool",
             "title": "Players Conversations Assessment",
-            "link": "/"
+            "link": "/",
+            "color": "#A191F2"
+
         },
         {
             "id":3,
             "price": "Free tool",
-            "title": "Players Conversations Assessment",
-            "link": "/"
+            "title": "Investment and interest in youth soccer ",
+            "link": "/",
+            "color": "#FF585D"
         },
         {
             "id":4,
             "price": "Free tool",
-            "title": "Players Conversations Assessment",
-            "link": "/"
+            "title": "Equal Opportunities for Soccer Players",
+            "link": "/",
+            "color": "#FFB93C"
+
         }
     ],
     "news" : [
@@ -84,7 +90,7 @@
         },
         {
             "id":2,
-            "title": "LeMoyne College",
+            "title": "Ahmed Rizzadin",
             "src": "src/assets/images/coachImage.png",
             "alt": "image description",
             "Content": "Potentiality holds the most up to date highlights footage, game footage, and academic performance empowering coaches to make confident decisions and empowering athletes to take control of their journey.",
@@ -92,7 +98,7 @@
         },
         {
             "id":3,
-            "title": "LeMoyne College",
+            "title": "Youth Soccer",
             "src": "src/assets/images/coachImage.png",
             "alt": "image description",
             "Content": "Potentiality holds the most up to date highlights footage, game footage, and academic performance empowering coaches to make confident decisions and empowering athletes to take control of their journey.",
@@ -100,7 +106,7 @@
         },
         {
             "id":4,
-            "title": "LeMoyne College",
+            "title": "LaLiga ",
             "src": "src/assets/images/coachImage.png",
             "alt": "image description",
             "Content": "Potentiality holds the most up to date highlights footage, game footage, and academic performance empowering coaches to make confident decisions and empowering athletes to take control of their journey.",
@@ -129,6 +135,49 @@
             "title": "Legal",
             "link": ["Privacy Policy", "Imprint"]
         }
+    ],
+    "sponsor": [
+        {
+            "title": "labfresh",
+            "src":"src/assets/images/labfresh-logo.png"
+        },
+        {
+            "title": "labfresh",
+            "src":"src/assets/images/fumb-games-logo.png"
+        },
+        {
+            "title": "labfresh",
+            "src":"src/assets/images/nitro-logo.png"
+        },
+        {
+            "title": "labfresh",
+            "src":"src/assets/images/labfresh-logo.png"
+        },
+        {
+            "title": "labfresh",
+            "src":"src/assets/images/ejade-logo.png"
+        },
+        {
+            "title": "labfresh",
+            "src":"src/assets/images/labfresh-logo.png"
+        },
+        {
+            "title": "labfresh",
+            "src":"src/assets/images/fumb-games-logo.png"
+        },
+        {
+            "title": "labfresh",
+            "src":"src/assets/images/nitro-logo.png"
+        },
+        {
+            "title": "labfresh",
+            "src":"src/assets/images/labfresh-logo.png"
+        },
+        {
+            "title": "labfresh",
+            "src":"src/assets/images/ejade-logo.png"
+        }
+        
     ]
   }
   
