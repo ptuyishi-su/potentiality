@@ -10,6 +10,9 @@ export const LandingPageHero =styled.div `
         font-weight: 700;
         line-height: 79px;
     }
+    span {
+        color: #e85814;
+    }
     
     img {
         object-fit: cover;

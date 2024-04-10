@@ -18,7 +18,7 @@ const toggleSolutionNav = () => {
         
         <Logo>
           <Link to="/">
-            <img src={smalls} />
+            <img src={logo} />
           </Link>
         </Logo>
       <div>

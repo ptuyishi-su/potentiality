@@ -16,11 +16,11 @@ const Hero = () => {
         <div>
           <div>
             <h1>
-              Promoting Equal Opportunities and Scouting in Soccer
+              Promoting Equal <span>Opportunities</span> in Soccer
             </h1>
             <HeroContent>
               <p>
-                  Showcase your skills, connect with coaches and recruiters,and take control of your athletic journey.
+                  Showcase your skills, connect with coaches and recruiters.
               </p>
               <Button bg="primary">Get Started</Button>
             </HeroContent>
