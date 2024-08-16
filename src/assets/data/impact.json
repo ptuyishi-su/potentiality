@@ -139,45 +139,46 @@
     "sponsor": [
         {
             "title": "labfresh",
-            "src":"src/assets/images/labfresh-logo.png"
+            "src":"../images/labfresh-logo.png"
         },
         {
             "title": "labfresh",
-            "src":"src/assets/images/fumb-games-logo.png"
+            "src":"../images/fumb-games-logo.png"
         },
         {
             "title": "labfresh",
-            "src":"src/assets/images/nitro-logo.png"
+            "src":"../images/nitro-logo.png"
         },
         {
             "title": "labfresh",
-            "src":"src/assets/images/labfresh-logo.png"
+            "src":"../images/labfresh-logo.png"
         },
         {
             "title": "labfresh",
-            "src":"src/assets/images/ejade-logo.png"
+            "src":"../images/ejade-logo.png"
         },
         {
             "title": "labfresh",
-            "src":"src/assets/images/labfresh-logo.png"
+            "src":"../images/labfresh-logo.png"
         },
         {
             "title": "labfresh",
-            "src":"src/assets/images/fumb-games-logo.png"
+            "src":"../images/fumb-games-logo.png"
         },
         {
             "title": "labfresh",
-            "src":"src/assets/images/nitro-logo.png"
+            "src":"../images/nitro-logo.png"
         },
         {
             "title": "labfresh",
-            "src":"src/assets/images/labfresh-logo.png"
+            "src":"../images/labfresh-logo.png"
         },
         {
             "title": "labfresh",
-            "src":"src/assets/images/ejade-logo.png"
+            "src":"../images/ejade-logo.png"
         }
         
     ]
-  }
+}
+
   
