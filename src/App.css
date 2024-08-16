@@ -445,3 +445,6 @@ p {
     font-size: 0.85rem;
   }
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

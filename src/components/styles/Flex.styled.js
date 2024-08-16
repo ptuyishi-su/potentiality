@@ -33,3 +33,8 @@ h3 {
         padding: 10px 0 0px;
     }
 `
+
+export const ColumnFlex = styled.div`
+    display: flex;
+    flex-direction: column;
+`

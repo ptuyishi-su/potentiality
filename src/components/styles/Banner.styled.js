@@ -17,7 +17,7 @@ export const Banner = styled.div`
     }
 
     :hover {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url("assets/images/runImage.jpeg") lightgray 0px -94.519px / 100% 314.193% no-repeat, #1870D4;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url("../../assets/images/runImage.jpeg") lightgray 0px -94.519px / 100% 314.193% no-repeat, #1870D4;
         }
 `;
 
