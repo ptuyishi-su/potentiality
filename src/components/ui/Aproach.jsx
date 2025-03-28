@@ -23,8 +23,9 @@ const Aproach = () => {
             <Card color={aproach.color}>
                 <p>{aproach.price}</p>
                 <h3>{aproach.title}</h3>
-                <ButtonClear bg="secondary"><span>Learn more</span></ButtonClear>
-            </Card>
+                <ButtonClear bg="secondary">
+  <span>Learn more</span>
+</ButtonClear>            </Card>
             )
         })}
       </FlexEven>

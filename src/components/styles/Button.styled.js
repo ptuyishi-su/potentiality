@@ -19,19 +19,21 @@ export const Button = styled.button`
     }
     `
 
-    export const ButtonClear = styled(Button)`
-        border-radius: 120px;
-        border: none;
-        font-size: 16px;
-        padding: 12px 20px;
-        transition: all .5s ease-out;
-        text-decoration: none;
-        color: #3253FF;
-        &:hover {
-        background-color: ${props => props.bg === "secondary" ? "#3253FF" : "white"};
-        text-decoration: ${props => props.bg === "secondary" ? "white" : "#white"};
-        p {color: white}
-        border: none
-
+export const ButtonClear = styled(Button)`
+  border-radius: 120px;
+  border: none;
+  font-size: 16px;
+  padding: 12px 20px;
+  transition: all 0.5s ease-out;
+  text-decoration: none;
+  color: #3253FF;
+  
+  &:hover {
+    background-color: ${props => props.bg === "secondary" ? "#3253FF" : "white"};
+    border: none;
+    
+    span {
+      color: ${props => props.bg === "secondary" ? "white" : "#3253FF"};
     }
-    `
+  }
+    `;
